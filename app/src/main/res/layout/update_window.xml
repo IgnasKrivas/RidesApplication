@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Update Ride Info"
+        android:background="@color/ic_rides_background"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="#fff"/>
+
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Name"-->
+<!--        android:id="@+id/uname"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:textSize="20sp"/>-->
+
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="from"-->
+<!--        android:id="@+id/ufrom"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:textSize="20sp"/>-->
+
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="to"-->
+<!--        android:id="@+id/uto"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:textSize="20sp"/>-->
+
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="number"-->
+<!--        android:id="@+id/unumber"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:textSize="20sp"/>-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="participants"
+        android:id="@+id/uparticipants"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="EDIT"
+        android:id="@+id/usubmit"
+        android:background="@color/design_default_color_primary"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+</LinearLayout>

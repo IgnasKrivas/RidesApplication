@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+ <item android:id="@+id/searchfrom"
+     android:icon="@drawable/ic_baseline_search_24"
+     android:title="Destination"
+     app:showAsAction="always"
+     app:actionViewClass="android.widget.SearchView" />
+<!--    <item android:id="@+id/searchto"-->
+<!--        android:icon="@drawable/ic_baseline_search_24"-->
+<!--        android:title="To where"-->
+<!--        app:showAsAction="always"-->
+<!--        app:actionViewClass="android.widget.SearchView" />-->
+</menu>
